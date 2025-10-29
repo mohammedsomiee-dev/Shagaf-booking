@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background:linear-gradient(rgb(46, 197, 197),rgb(255, 0, 212)) ;height: 100vh;  /* لونين للخلفيلة*/
+    
+}
+a{
+    text-decoration: none;/* خط تحت النص او فوقه وبقية انواع زخرفة الرابط*/
+}
+header ul{
+    display: flex;/* تتحكم بالمواقع على حسب الخواص */
+    justify-content: center;  /* ترتب المحتويات افقيا */
+    align-content: center;
+    list-style: none; /*  نقاط القوائم */
+}
+header ul li{
+    margin-right: 30px;
+
+}
+header ul li a{
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background-color: wheat;
+    color:rgb(133, 36, 36);
+}
